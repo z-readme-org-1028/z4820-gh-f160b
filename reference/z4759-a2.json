@@ -1,0 +1,25 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "Z4759 A Secondary",
+    "version": "1.0"
+  },
+  "servers": [
+    {
+      "url": "https://z4759-a2.test"
+    }
+  ],
+  "paths": {
+    "/z4759-a2-op": {
+      "get": {
+        "operationId": "z4759A2Op",
+        "summary": "Z4759 A secondary operation",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  }
+}
