@@ -13,7 +13,7 @@
     "/z4759-a-op": {
       "get": {
         "operationId": "z4759AOp",
-        "summary": "Z4759 A Endpoint",
+        "summary": "Z4759 A primary operation",
         "responses": {
           "200": {
             "description": "OK"
@@ -21,10 +21,10 @@
         }
       }
     },
-    "/z-rebind-4759n2": {
+    "/z-rebind-4759n3": {
       "get": {
-        "operationId": "z4759RebindN2",
-        "summary": "Z4759-REBIND-CANARY-n2",
+        "operationId": "z4759RebindN3",
+        "summary": "Z4759-REBIND-CANARY-n3",
         "responses": {
           "200": {
             "description": "OK"
