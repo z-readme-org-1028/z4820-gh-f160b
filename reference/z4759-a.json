@@ -13,7 +13,7 @@
     "/z4759-a-op": {
       "get": {
         "operationId": "z4759AOp",
-        "summary": "Z4759 A primary operation",
+        "summary": "Z4759 A Endpoint",
         "responses": {
           "200": {
             "description": "OK"
