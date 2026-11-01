@@ -1,0 +1,25 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "Z4759 A Primary",
+    "version": "1.0"
+  },
+  "servers": [
+    {
+      "url": "https://z4759-a.test"
+    }
+  ],
+  "paths": {
+    "/z4759-a-op": {
+      "get": {
+        "operationId": "z4759AOp",
+        "summary": "Z4759 A primary operation",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  }
+}
