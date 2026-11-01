@@ -1,0 +1,17 @@
+name: z4820-deploy
+# z4820 maintainer-owned workflow (fixture): deploys on pushes to the protected v1.0 branch
+on:
+  push:
+    branches: [v1.0]
+permissions:
+  contents: read
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment: z4820-prod
+    steps:
+      - uses: actions/checkout@v4
+      - name: deploy
+        env:
+          Z4820_CANARY: ${{ secrets.Z4820_CANARY }}
+        run: bash scripts/z4820-deploy.sh
